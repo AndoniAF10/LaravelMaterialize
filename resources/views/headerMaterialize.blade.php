@@ -4,9 +4,9 @@
             <div class="nav-wrapper indigo darken-4 container">
               <img class="activator" src="./images/Logo.png" alt="" width="250px" height="70px">
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="./Pagina1.html">Pagina principal</a></li>
-                <li><a href="./Pagina2.html">Ayuda</a></li>
-                <li><a href="./Pagina3.html">Ofertas</a></li>
+                <li><a href="{{route('PaginaPrincipal')}}">Pagina principal</a></li>
+                <li><a href="{{route('Ayuda')}}">Ayuda</a></li>
+                <li><a href="{{route('Ofertas')}}">Ofertas</a></li>
               </ul>
             </div>
             </div>
